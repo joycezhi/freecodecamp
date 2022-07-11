@@ -1,3 +1,18 @@
+man = eval(input("He is a man? Please input True or False "))
+tall = eval(input("He is tall? Please input True or False "))
+
+
+if man and tall:
+    print("A tall man")
+elif man and not tall:
+    print("A short man")
+elif not man and tall:
+    print("A tall person, but not man")
+else:
+    print("not a tall man")
+___________________________________________________________________________
+---------------------------------------------------------------------------
+
 man = input("He is a man? Please input True or False ")
 tall = input("He is tall? Please input True or False ")
 
