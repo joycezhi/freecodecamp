@@ -1,0 +1,14 @@
+try:
+    number = int(input("Enter a number: "))
+    print(number)
+
+    def divide(num1, num2):
+        result = num1 / num2
+        return result
+
+    print(divide(int(input("num1: ")), int(input("num2: "))))
+
+except ValueError:
+    print("Invalid input")
+except ZeroDivisionError as err:
+    print(err)
